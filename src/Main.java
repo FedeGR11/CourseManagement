@@ -15,6 +15,7 @@ public class Main {
 
         showCourses(courses);
             
+        scanner.close();
     }        
     public static int setCourseQuantity(Scanner scanner) {
         System.out.println("Ingrese la cantidad de cursos a registrar:");    
